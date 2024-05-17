@@ -1,9 +1,9 @@
-from fastapi import FastAPI
-from os import getenv
-import uvicorn
+# from fastapi import FastAPI
+# from os import getenv
+# import uvicorn
 
-app = FastAPI()
+# app = FastAPI()
     
-if __name__ == "__main__":
-    port = int(getenv("PORT", 8000))
-    uvicorn.run("app.api:app", port=port, reload=True)
+# if __name__ == "__main__":
+#     port = int(getenv("PORT", 8000))
+#     uvicorn.run("app.api:app", port=port, reload=True)
